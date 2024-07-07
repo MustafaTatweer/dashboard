@@ -23,7 +23,8 @@ export default function CreateUser() {
   }
 
   return (
-    <form class="w-full max-w-sm" onSubmit={handleSubmit}>
+    <form class="max-w-sm w-fit m-auto" onSubmit={handleSubmit}>
+      <h1>Create User</h1>
       <div class="md:flex md:items-center mb-6">
         <div class="md:w-1/3">
           <label
